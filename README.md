@@ -1,4 +1,4 @@
-# project-template
+# escape-the-room
 
 ESCAPE THE ROOM
 
