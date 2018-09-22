@@ -1,6 +1,6 @@
 module Main where
 
-import           MyProject
+import           ETR
 
 main :: IO ()
 main = run
