@@ -29,7 +29,7 @@ library:
   source-dirs: src
 
 executables:
-  my-project-exe:
+  escape-the-room-exe:
     main:                Main.hs
     source-dirs:         app
     ghc-options:
@@ -37,10 +37,10 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - my-project
+    - escape-the-room
 
 tests:
-  my-project-test:
+  escape-the-room-test:
     main:                Spec.hs
     source-dirs:         test
     ghc-options:
@@ -48,4 +48,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - my-project
+    - escape-the-room
